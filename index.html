@@ -8,14 +8,54 @@
     <title>TailwindCSS Boilerplate</title>
 </head>
 
-<body class="bg-gradient-to-bl from-purple-400 to-zinc-500 h-screen">
-    <section class="container mx-auto pt-20">
-        <h1 class="text-white text-3xl text-center">
-            <p class="mb-8">Vite + Tailwind CSS + Awesomeness</p>
-        </h1>
-        <div class="mx-auto text-center">
-            <a href='https://github.com/hasinhayder/tailwind-boilerplate' class=" text-white bg-cyan-500 font-semibold border-0 py-2 px-6 focus:outline-none hover:bg-red-600 rounded text-lg">Download</a>
-            <a target="_blank" href='https://github.com/hasinhayder' class="ml-4 text-gray-700 bg-gray-100 border-0 py-2 px-6 focus:outline-none hover:bg-gray-200 rounded text-lg">Don't Click</a>
+<body class="h-screen text-gray-400 bg-gray-900 body-font">
+    <header>
+        <div class="container mx-auto p-8 flex flex-wrap flex-col md:flex-row">
+            <nav class="md:mr-auto md:ml-4 md:py-1 md:pl-4 font-bold text-lg md:border-l md:border-gray-700 flex flex-wrap items-center text-base justify-center">
+                <a class="mr-8 hover:text-white" href="#about">ABOUT</a>
+                <a class="mr-8 hover:text-white" href="#">PORTFOLIO</a>
+                <a class="mr-8 hover:text-white" href="#">CONTACT</a>
+            </nav>
+        </div>
+    </header>
+    <section>
+        <div class="flex px-5 py-3 md:flex-row flex-col items-center">
+            <div class="flex-1 md:mb-0 mb-10 ml-10 pl-12">
+                <h1 class="title-font font-bold sm:text-5xl text-3xl mb-4 text-white">Semhal Desta</h1>
+                <h5 class="title-font sm:text-2xl text-1xl mb-4 font-medium text-white-200">ALX Student</h5>
+                <div class="w-2/3">
+                    <img class="object-fit rounded" alt="hero" src="/semhal.jpg">
+                </div>
+                <ul class="flex mt-6 ml-1 pl-14 items-center">
+                    <li class="mr-5"><a href="https://github.com/Semhal22" target="_blank">
+                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" fill="currentColor" class="h-6 w-6" aria-hidden="true"><path d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.013 8.013 0 0016 8c0-4.42-3.58-8-8-8z"></path></svg>                    </a></li>
+                   <li class="mr-5"><a href="https://twitter.com/desta_semhal" target="_blank">
+                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 248 204" fill="currentColor" class="h-6 w-6" aria-hidden="true"><path id="white_background" d="M221.95,51.29c0.15,2.17,0.15,4.34,0.15,6.53c0,66.73-50.8,143.69-143.69,143.69v-0.04   C50.97,201.51,24.1,193.65,1,178.83c3.99,0.48,8,0.72,12.02,0.73c22.74,0.02,44.83-7.61,62.72-21.66   c-21.61-0.41-40.56-14.5-47.18-35.07c7.57,1.46,15.37,1.16,22.8-0.87C27.8,117.2,10.85,96.5,10.85,72.46c0-0.22,0-0.43,0-0.64   c7.02,3.91,14.88,6.08,22.92,6.32C11.58,63.31,4.74,33.79,18.14,10.71c25.64,31.55,63.47,50.73,104.08,52.76   c-4.07-17.54,1.49-35.92,14.61-48.25c20.34-19.12,52.33-18.14,71.45,2.19c11.31-2.23,22.15-6.38,32.07-12.26   c-3.77,11.69-11.66,21.62-22.2,27.93c10.01-1.18,19.79-3.86,29-7.95C240.37,35.29,231.83,44.14,221.95,51.29z"></path></svg>
+                    </a></li>
+                    <li class="mr-5"><a href="https://www.linkedin.com/in/semhal-desta/" target="_blank">
+                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" class="h-6 w-6" aria-hidden="true"><path d="M20.5 2h-17A1.5 1.5 0 002 3.5v17A1.5 1.5 0 003.5 22h17a1.5 1.5 0 001.5-1.5v-17A1.5 1.5 0 0020.5 2zM8 19H5v-9h3zM6.5 8.25A1.75 1.75 0 118.3 6.5a1.78 1.78 0 01-1.8 1.75zM19 19h-3v-4.74c0-1.42-.6-1.93-1.38-1.93A1.74 1.74 0 0013 14.19a.66.66 0 000 .14V19h-3v-9h2.9v1.3a3.11 3.11 0 012.7-1.4c1.55 0 3.36.86 3.36 3.66z"></path></svg>
+                    </a></li>
+                </ul>
+            </div>
+            <div class="flex-1 px-0 py-0" id="about">
+                <h4 class="font-bold text-white sm:text-2xl">ABOUT</h4>
+                <div class="mb-8 mt-4 pr-20 leading-relaxed text-white-300 sm:text-xl">
+                    <p>
+                        I am currently an ALX student. I am studying software engineering. I am like 5 months into
+                        the program and I am really enjoying the process. I am also an IT student in Mekelle University.
+                    </p>
+                    <p class="mt-4">
+                        I have tried to teach myself programming after some point and I have knowledge of basic
+                        HTML, CSS and and Javascript. Furthmore, I also tried to understand basics of front
+                        end and back-end. So I know a little of Vue and Nodejs. I have my previous projects that I
+                        did for myself with these technologies. Generally, my interest is in the web development.
+                    </p>
+                    <p class="mt-4">
+                        With any free time I have, I enjoy reading books a lot and playing chess too sometimes.
+                    </p>
+                </div>
+                
+            </div>
         </div>
     </section>
     <script type="module" src="/assets/js/main.js"></script>
